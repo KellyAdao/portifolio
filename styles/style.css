@@ -2,7 +2,7 @@
 
 :root {
     --cor-primaria: #000000;
-    --cor-secundaria: #F6F6F6;
+    --cor-secundaria: #F6F6F6; 
     --cor-terciaria: #413ad6;
     --cor-hover:#413ad6;
     /*--cor-hover: #272727;*/
@@ -35,7 +35,7 @@ body{
 }
 .navegacao__link{
     font-family: var(--fonte-principal);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     color: var(--cor-secundaria); 
     text-decoration: none;
@@ -56,7 +56,7 @@ body{
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -65,7 +65,7 @@ body{
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 1.75rem;
     font-family: var(--fonte-principal);
 }
 
@@ -82,6 +82,7 @@ body{
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-secundaria);
     font-weight: 400;
+    font-size: 1rem;
 }
 
 
@@ -94,7 +95,7 @@ body{
     width: 378px;
     text-align: center; 
     border-radius: 10px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -120,7 +121,7 @@ body{
     text-align: center;
     padding: 24px 0;
     font-family: var(--fonte-principal);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     border-top: 1px solid var(--cor-terciaria);
 }
